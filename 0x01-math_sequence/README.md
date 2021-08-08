@@ -52,7 +52,7 @@ Write a function that return the Heron sequence until having convergence with an
 -   Prototype:  `t_cell *heron(double p, double x0);`
 -   You must use linked lists.
 
-![](https://es.wikipedia.org/wiki/Her%C3%B3n_de_Alejandr%C3%ADa#/media/Archivo:Hero_of_Alexandria.png)
+![](images/heron_face.png)
 
 ```
 julien@ubuntu:~/0x01-math_sequence$ cat 0-main.c
