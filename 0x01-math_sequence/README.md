@@ -45,7 +45,7 @@ Before doing this project, you need to know :
 
 mandatory
 
-The Heron sequence is defined by:![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2021/4/7192413c9d6ed17fa724e378f8eefe5bee0e17bd.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210808T131009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=3493a4ea27fed1f2a41c38936f35ea00894a5de1302bd746cf81067e5d8e55d9)  with  ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2021/4/7b9cabf5caeb1f8612374a26efb6f514f29cfc1d.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210808T131009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=111cbfb0f4567de47b504cb787a25b48bf4a9316b9d67260f46acab64f6050c2).
+The Heron sequence is defined by:![](images/heron_s.gif).
 
 Write a function that return the Heron sequence until having convergence with an error less or equal to  ![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2021/4/cd8f730397a1464a98ed0da9ebc7a5c98eb02847.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210808T131009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4e655ed59711c011b52fa8b28f721bf59c0789049aa086d08c7629626d45ed63).
 
