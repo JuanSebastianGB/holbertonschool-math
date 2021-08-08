@@ -39,7 +39,7 @@ Before doing this project, you need to know :
 -   A  `README.md`  file, at the root of the folder of the project
 -   There should be no errors and no warnings during compilation
 -   Your code should use the  `Betty`  style. It will be checked using  [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl "betty-style.pl")  and  [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl "betty-doc.pl")
-## asks
+## Tasks
 
 ### 0. The Heron sequence
 
@@ -60,31 +60,31 @@ julien@ubuntu:~/0x01-math_sequence$ cat 0-main.c
 #include "heron.h"
 
 /**
- * main - check the code for Holberton School students.
-  *
-   * Return: Always 0.
-    */
-    void print_list(t_cell *head)
-    {
-        if (head == NULL)
-	       return;
-	           print_list(head->next);
-		       printf("%lf ",head->elt);
-		       }
+* main - check the code for Holberton School students.
+*
+* Return: Always 0.
+*/
+void print_list(t_cell *head)
+{
+if (head == NULL)
+return;
+print_list(head->next);
+printf("%lf ",head->elt);
+}
 
 int main()
 {
-    double p, u0;
-        t_cell *head;
+double p, u0;
+t_cell *head;
 
-    u0 = 1;
-        p = 35;
-	    printf("The Heron sequence until having convergence with an error equal to 10^(-7) is:\n");
-	        head = heron(p, u0);
-		    print_list(head);
-		        printf("\n");
-			    return (0);
-			    }
+u0 = 1;
+p = 35;
+printf("The Heron sequence until having convergence with an error equal to 10^(-7) is:\n");
+head = heron(p, u0);
+print_list(head);
+printf("\n");
+return (0);
+}
 
 julien@ubuntu:~/0x01-math_sequence$ gcc -Wall -pedantic -Werror -Wextra -std=c89 0-heron.c 0-main.c -o ./0-heron
 julien@ubuntu:~/0x01-math_sequence$ ./0-heron
