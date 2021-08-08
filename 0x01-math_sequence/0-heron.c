@@ -34,6 +34,14 @@ t_cell *add_node(t_cell **head, double p)
 
 }
 
+/**
+ * *heron - return the Heron sequence until having convergence with
+ * an error less or equal to 10(^-7)
+ * @p: Number to get sqrt
+ * @x0: start of the secuence
+ * Return: Head node linked
+ */
+
 t_cell *heron(double p, double x0)
 {
 	t_cell *head;
@@ -45,4 +53,4 @@ t_cell *heron(double p, double x0)
 		add_node(&head, p);
 
 	return (head);
-} 
+}
