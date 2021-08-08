@@ -19,5 +19,6 @@ typedef struct t_series
 } t_cell;
 
 t_cell *heron(double p, double x0);
+t_cell *add_node(t_cell **head, double p);
 
 #endif /* _HERON_H_ */
