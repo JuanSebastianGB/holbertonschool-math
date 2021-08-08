@@ -1,4 +1,20 @@
 #include "holberton.h"
+
+/**
+ * number_presition - return the number after the dot
+ * in a float number
+ * @number: float number
+ * Return: Number after dot
+ */
+
+int number_presition(float number)
+{
+	float tmp;
+
+	tmp = 10 * (number - (int)number);
+	return ((int)tmp);
+}
+
 /**
  * display_complex_number - displays the complex numbers,
  * followed by a new line.
