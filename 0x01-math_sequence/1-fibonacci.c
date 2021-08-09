@@ -53,7 +53,7 @@ t_cell *add_node_fibonacci(t_cell **head)
 }
 
 /**
- * *fibonacci - compute the fibonacci series till 30'th number
+ * *fibonacci - compute the fibonacci series till 20'th number
  * Return: @Head node
  */
 
